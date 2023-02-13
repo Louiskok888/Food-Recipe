@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.container {
+  max-width: 960px;
+}
+.navbar-survival101 {
+  background-color: orange;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  border-radius: 80px;
+  font-size: 40px;
+ 
+  display: block;
+  justify-content: center;
+}
+
+.search-box {
+  position: relative;
+  height: 34px;
+}
+.search-box input {
+  border: 0;
+  border-radius: 10px !important;
+  padding-right: 28px;
+  font-size: 15px;
+}
+
+.search-box .input-group-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.search-box .input-group-btn button {
+  background-color: transparent;
+  border: 0;
+  padding: 4px 8px;
+  color: rgba(0,0,0,.4);
+  font-size: 10px;
+}
+
+.search-box .input-group-btn button:hover,
+.search-box .input-group-btn button:active,
+.search-box .input-group-btn button:focus {
+  color: black;
+  size: 500px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .7rem;
+  }
+  
+  .search-box {
+    width: 300px !important;
+  }
+}
+
+.caroulsel {
+  width: 100%;
+  overflow: hidden;
+  padding: 5px 0 5px 5px;
+}
+
+.caroulsel-wrap {
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.caroulsel-wrap a {
+  display: inline-block;
+  width: 134px;
+  height: 92px;
+  background-color: silver;
+  border: #ccc 1px solid;
+  margin-right: 5px;
+}
+.title {
+  padding: 20px;
+  margin-right: 50px;
+  margin-left: 80px;
+  font-size: 50px;
+  font-family: 'Courgette', cursive;
+}
+.form-inline {
+  margin-left: 30px;
+  margin-right: 80px;
+}
+a.nav-link:hover {
+  background-color: pink;
+  border-radius: 80px;
+}
+.nav-item {
+  padding: 50px;
+  font-family: 'Courgette', cursive;
+}
+
+.favorite {
+  color: white;
+  
+}
+
+.home {
+  /* display: block;
+  justify-content: center;
+  align-items: center; */
+  margin-left: 50px;
+  margin-top: 30px;
+  background-image: url(./image/ingredients.jpeg);
+  background-size: cover;
+  background-color: rgba(225,225,225,0.8);
+  background-repeat: no-repeat;
+  
+  
+  
+}
+
+.logo {
+  font-family: 'Courgette', cursive;
+  color: #fff;
+}
+
+.input {
+  border-radius: 10px;
+}
+
+.displayFood {
+  margin-left: 500px;
+  margin-bottom: 10px;
+}
+
+.ingredients {
+  color: blue;
+  padding: 20px;
+}
+
+.instructions {
+  color: green;
+}
+
+.foodTitle {
+  background-color: pink;
+  font-family: cursive;
+  font-size: 60px;
+
+}
+
+.result {
+  background-color: white;
+}
+
+.favoriteBtn {
+  font-size: 50px;
+}
+
+
+.heart {
+  font-size: x-large;
+  background-color: yellow;
+  border-radius: 80px;
+  
+}
+
+#search {
+  color: black;
+  background-color: aqua;
+  font-size: 80px;
+}
+
+.about {
+  background-color: antiquewhite;
+}
+
+.favoriteData {
+  font-size: 30px;
+  color: whitesmoke;
+  background-color: palevioletred;
+  
+}
+
+.book {
+  display: flex;
+  justify-content: space-around;
+     }
+
+.description {
+  padding-top: 200px;
+  padding-right: 150px;
+  font-size: 40px;
+  background-image: url('./image/recipe11.png');
+  background-repeat: no-repeat;
+  background-size: 900px;
+
+     }
+
+.description2 {
+  margin-left: 215px;
+  margin-top: 50px;
+}
+
+.bookLogo {
+  margin-left: 600px;
+  padding-top: 50px;
+}
+
+.recipeImg {
+  image-rendering: 100px;
+}
+
+.instructions {
+  padding: 20px;
+}
+
+.youtube {
+  padding: 20px;
+}
+
+.remove {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
